@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html style="background-color:wheat">
+    <head>
+    <style>
+        .baris{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:"center";
+            
+        }
+    </style>
+    <style>
+        .tabel{
+            background-color: #f8db35;
+            opacity: 1;
+            align:"center";
+            margin-top: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+
+        }
+    </style>
+    <style>
+        .rata{
+            background-size: auto;
+            align:"center";
+            margin-top: 5cm;
+            margin-right: 5cm;
+            margin-bottom: 5cm;
+            margin-left: 19.5cm;
+            font-family: arial;
+        }
+    </style>
+    <style>
+        .foot{
+            background-color: #f8db35;
+            align: center;
+
+
+        }
+    </style>
+    
+    
+    </head>
+    <body>
+        
+        <h1 class="rata">Pendaftaran ITERA Olympic</h1>
+        
+        <form action="infopeserta.html" method="post"> <!--Ini merupakan query string untuk post ke halaman selanjutnya-->
+            <table class="tabel";>
+            <tr class="baris">
+            <td>Nama</td>
+            </tr>
+
+            <tr> 
+                <td colspan="2"><input type="text"></td> 
+            </tr>
+
+            <tr class="baris">
+            <td>Nim : </td>
+            <td><input type="text"></td>
+            
+            </tr>
+            
+            <tr class="baris">
+                <td>Tanggal Lahir : </td>
+                <td><input type="date"></td>
+                </tr>
+
+          <tr class="baris">
+            <td>Jenis Lomba IO : </td>
+            <td><select name="where">
+                <option>Futsal</option>
+                <option>Valorant</option>
+                <option>Basket</option>
+                <option>Mobile Legend</option>
+                <option>Badminton</option>
+                <option>Point Blank</option>
+            </select></td>
+         </tr>
+
+            <tr class="baris">
+            <td>Program Studi : </td>
+            <td><select name="where">
+                <option>Teknik Informatika</option>
+                <option>Teknik Geofisika</option>
+                <option>Teknik Geomatika</option>
+                <option>Teknik Industri</option>
+            </select></td>
+         </tr>
+         <tr class="baris">
+             <td> Sudah Yakin ?</td>
+             <td><input type="submit" value="Daftar"/></td>
+            </tr>
+
+        </table>
+    </form>
+        
+
+    </body>
+    <footer class="foot">
+
+        <h2 style="font-family: Arial, Helvetica, sans-serif;" align="center">ITERA OLYMPIC 2021</h3>
+        </footer>
+
+</html>
